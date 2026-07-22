@@ -2,37 +2,63 @@
 
 # ESign iOS Certificate Download
 
-### Updated ESign Certificate for iPhone and iPad
+### Updated certificates for ESign on iPhone and iPad
 
-Download the latest available ESign iOS certificate, provisioning profile, and certificate password from AppleJR.
-
-[![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge&logo=apple)](https://applejr.net/)
-[![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
-[![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
-
-**ESign iOS Certificate Download Updated 2026**
+Download the latest available ESign certificate files, provisioning profiles, and certificate passwords from AppleJR.
 
 <br>
 
 <a href="https://applejr.net/">
-  <img src="https://applejr.net/assets/img-local/o8HGFP6m-54cada85.webp" alt="AppleJR ESign iOS Certificate Download" width="100%">
+  <img
+    src="https://applejr.net/assets/img-local/o8HGFP6m-54cada85.webp"
+    alt="AppleJR ESign iOS Certificate Download"
+    width="520"
+  >
 </a>
+
+<br><br>
+
+[![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge\&logo=apple)](https://applejr.net/)
+[![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
+[![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
+
+<br>
+
+**ESign iOS Certificate Download — Updated July 2026**
 
 </div>
 
 ---
 
-## ESign iOS Certificate Download
+## Overview
 
-AppleJR provides updated certificate resources for ESign users on iPhone and iPad.
+This repository provides a complete guide for downloading, importing, and using an **ESign iOS certificate** on an iPhone or iPad.
 
-Open the AppleJR website and select the **Certs** section to view the currently available certificate downloads.
+AppleJR lists certificate resources that may be compatible with:
+
+* ESign
+* KSign
+* Scarlet
+* Feather
+* Other compatible IPA signing tools
+
+Certificate availability may change because enterprise certificates can expire or be revoked.
+
+> This repository does not directly host certificate files. Download links redirect users to AppleJR.
+
+---
+
+## Download ESign Certificate
 
 <div align="center">
 
-## [Download Updated ESign Certificate](https://applejr.net/)
+### [Download Updated ESign Certificate](https://applejr.net/)
 
-### Open AppleJR and select the **Certs** tab
+Open AppleJR and select the **Certs** section.
+
+<br>
+
+[![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge\&logo=apple)](https://applejr.net/)
 
 </div>
 
@@ -44,114 +70,122 @@ Certificate.mobileprovision
 Password.txt
 ```
 
-The available certificate names and status may change because enterprise certificates can expire or be revoked.
+The `.p12` certificate, provisioning profile, and password must belong to the same certificate package.
 
-Always check AppleJR for the currently listed certificate packages.
+Do not combine files from different certificate packages.
 
 ---
 
-## Watch the ESign Tutorial
+## Video Tutorial
 
-Watch the step-by-step video tutorial below.
+Watch the step-by-step tutorial for installing and using ESign certificates.
 
 <div align="center">
 
 <a href="https://www.youtube.com/watch?v=c_ehi422vWA&t=36s">
   <img
     src="https://img.youtube.com/vi/c_ehi422vWA/maxresdefault.jpg"
-    alt="Watch ESign iOS Certificate Tutorial"
-    width="800"
+    alt="ESign iOS Certificate Tutorial"
+    width="640"
   >
 </a>
 
 <br><br>
 
+[![Watch Tutorial](https://img.shields.io/badge/Watch%20Tutorial-YouTube-ff0000?style=for-the-badge\&logo=youtube\&logoColor=white)](https://www.youtube.com/watch?v=c_ehi422vWA&t=36s)
+
+</div>
+
+> GitHub README files do not support embedded YouTube players. Clicking the thumbnail opens the tutorial on YouTube.
 
 ---
 
 ## Table of Contents
 
-* [Download ESign Certificate](#esign-ios-certificate-download)
-* [Watch the Tutorial](#watch-the-esign-tutorial)
-* [What Is an ESign Certificate?](#what-is-an-esign-ios-certificate)
-* [How to Download a Certificate](#how-to-download-an-esign-certificate)
-* [How to Import a Certificate](#how-to-import-a-certificate-into-esign)
-* [How to Sign an IPA](#how-to-sign-an-ipa-file-with-esign)
-* [Certificate Password](#esign-certificate-password)
-* [Fix Certificate Errors](#fix-esign-certificate-not-working)
-* [Certificate Status](#esign-certificate-status)
-* [Supported Signing Apps](#supported-signing-applications)
+* [Overview](#overview)
+* [Download ESign Certificate](#download-esign-certificate)
+* [Video Tutorial](#video-tutorial)
+* [What Is an ESign Certificate?](#what-is-an-esign-certificate)
+* [How to Download a Certificate](#how-to-download-a-certificate)
+* [How to Import a Certificate](#how-to-import-a-certificate)
+* [How to Sign an IPA File](#how-to-sign-an-ipa-file)
+* [Troubleshooting](#troubleshooting)
+* [Certificate Status](#certificate-status)
 * [Frequently Asked Questions](#frequently-asked-questions)
-* [AppleJR Resources](#applejr-ios-resources)
-* [Important Notice](#important-notice)
+* [AppleJR Resources](#applejr-resources)
+* [Disclaimer](#disclaimer)
 
 ---
 
-## What Is an ESign iOS Certificate?
+## What Is an ESign Certificate?
 
-An ESign iOS certificate is a signing certificate that can be imported into ESign and used to sign compatible IPA files before installation on an iPhone or iPad.
+An ESign certificate is used to sign compatible IPA files before they are installed on an iPhone or iPad.
 
-A complete certificate package normally includes:
+A standard certificate package normally includes:
 
-* A `.p12` signing certificate
-* A `.mobileprovision` provisioning profile
-* A certificate password
-* Certificate information or status
+| File               | Purpose                                                  |
+| ------------------ | -------------------------------------------------------- |
+| `.p12`             | Contains the signing certificate                         |
+| `.mobileprovision` | Contains the provisioning profile                        |
+| Password file      | Contains the password required to import the `.p12` file |
 
-The `.p12` file and `.mobileprovision` profile must come from the same certificate package.
+The certificate and provisioning profile must be compatible with each other.
 
-Do not mix files from different certificate packages. Mismatched certificate files may cause import, signing, or installation errors.
+A successfully imported certificate does not guarantee that every IPA file will work. Some applications require special entitlements or capabilities.
 
 ---
 
-## How to Download an ESign Certificate
-
-Follow these steps to download an updated ESign certificate:
+## How to Download a Certificate
 
 1. Open [AppleJR.net](https://applejr.net/).
-2. Locate the website navigation menu.
-3. Select the **Certs** tab.
-4. Choose one of the currently available certificate packages.
-5. Download the certificate ZIP file.
-6. Open the iOS Files app.
-7. Locate the downloaded ZIP file.
-8. Extract the certificate package.
-9. Check for the `.p12`, `.mobileprovision`, and password files.
+2. Locate the navigation menu.
+3. Select the **Certs** section.
+4. Choose an available certificate package.
+5. Download the ZIP file.
+6. Open the downloaded file in the iOS Files app.
+7. Extract the ZIP archive.
+8. Confirm that the package contains the required certificate files.
+
+Typical files include:
+
+```text
+Certificate.p12
+Certificate.mobileprovision
+Password.txt
+```
 
 <div align="center">
 
-### [Open AppleJR Certificate Downloads](https://applejr.net/)
+### [Open AppleJR Certificates](https://applejr.net/)
 
 </div>
 
 ---
 
-## How to Import a Certificate into ESign
+## How to Import a Certificate
 
 After downloading and extracting the certificate package:
 
-1. Open **ESign** on your iPhone or iPad.
+1. Open **ESign**.
 2. Open the **File** tab.
-3. Import the `.p12` certificate file.
-4. Import the `.mobileprovision` provisioning profile.
+3. Import the `.p12` certificate.
+4. Import the `.mobileprovision` profile.
 5. Select the imported certificate file.
-6. Enter the certificate password when requested.
-7. Confirm the certificate import.
+6. Enter the provided certificate password.
+7. Confirm the import.
 8. Check that the certificate appears inside ESign.
 
-The certificate should display information such as:
+The imported certificate may display:
 
 * Certificate name
-* Expiration date
 * Team identifier
-* Provisioning profile
+* Expiration date
+* Provisioning information
 * Certificate status
 
 ---
 
-## How to Sign an IPA File with ESign
-
-Follow these steps to sign a compatible IPA file:
+## How to Sign an IPA File
 
 1. Open ESign.
 2. Import the IPA file.
@@ -159,20 +193,20 @@ Follow these steps to sign a compatible IPA file:
 4. Select the imported application.
 5. Tap **Signature**.
 6. Select the imported certificate.
-7. Configure the app name when necessary.
-8. Configure the bundle identifier when necessary.
+7. Adjust the application name if needed.
+8. Adjust the bundle identifier if needed.
 9. Tap **Signature** again.
-10. Wait for the signing process to complete.
+10. Wait for the signing process to finish.
 11. Select the signed application.
 12. Tap **Install**.
 
-Only install IPA files that you trust, own, or have permission to use.
+Only install IPA files from sources you trust and have permission to use.
 
 ---
 
-## ESign Certificate Password
+## Certificate Password
 
-The certificate password may be stored inside one of these files:
+The password may be stored in one of these files:
 
 ```text
 Password.txt
@@ -182,91 +216,69 @@ README.txt
 Certificate Password.txt
 ```
 
-If ESign says the password is incorrect:
+If the password is rejected:
 
 * Remove spaces before or after the password.
-* Check uppercase and lowercase letters.
+* Check uppercase and lowercase characters.
 * Confirm that the password belongs to the selected `.p12` file.
-* Make sure the certificate ZIP file was extracted correctly.
-* Do not use a password from another certificate package.
-* Download the original certificate package again.
-
-The `.p12`, `.mobileprovision`, and password must belong to the same certificate package.
+* Make sure the ZIP archive was extracted completely.
+* Download the certificate package again.
+* Do not use a password from another certificate.
 
 ---
 
-## Fix ESign Certificate Not Working
-
-Public enterprise certificates are not permanent.
-
-A certificate may stop working because of:
-
-* Certificate expiration
-* Certificate revocation
-* Provisioning profile expiration
-* Incorrect certificate password
-* Mismatched certificate files
-* Unsupported app entitlements
-* Corrupted IPA files
-* Bundle identifier conflicts
+## Troubleshooting
 
 ### Certificate Failed to Import
 
-Check the following:
+Check that:
 
 * The `.p12` file is not corrupted.
-* The certificate password is correct.
-* The certificate ZIP file has been extracted.
-* The provisioning profile belongs to the certificate.
+* The password is correct.
+* The certificate package has been extracted.
+* The provisioning profile matches the certificate.
 * The certificate has not expired.
-* The certificate files were not mixed with another package.
+* Files from different packages were not mixed.
 
 ### Unable to Install App
 
-The **Unable to Install App** error may appear when:
+This error may occur when:
 
 * The certificate has been revoked.
 * The provisioning profile has expired.
-* The IPA file is damaged.
+* The IPA file is corrupted.
 * The application requires unsupported entitlements.
-* Another version of the app is already installed.
-* The signed application has a conflicting bundle identifier.
-* The device does not support the application.
+* Another version of the application is already installed.
+* The bundle identifier conflicts with another installed application.
 
-Possible fixes:
+Possible solutions:
 
 1. Delete the existing version of the app.
 2. Restart the iPhone or iPad.
 3. Import the certificate again.
 4. Sign the IPA again.
-5. Try another certificate currently listed on AppleJR.
-6. Download the original IPA file again.
+5. Try another available certificate.
+6. Download a clean copy of the IPA file.
 
 ### Integrity Could Not Be Verified
 
-The **Integrity Could Not Be Verified** message may indicate that the certificate is no longer accepted by the device.
+This error commonly means that the certificate is no longer accepted by the device.
 
-Open AppleJR and check another currently listed certificate:
+Check another available certificate on AppleJR:
 
-<div align="center">
-
-### [Check Updated ESign Certificates](https://applejr.net/)
-
-</div>
+[Check Updated ESign Certificates](https://applejr.net/)
 
 ### Unable to Verify App
 
 Open:
 
 ```text
-Settings
-General
-VPN & Device Management
+Settings → General → VPN & Device Management
 ```
 
-Select the developer profile and check whether a trust or verification option is available.
+Select the relevant developer profile and check whether a trust or verification option is available.
 
-If the developer profile cannot be verified, the certificate may have expired or been revoked.
+If the profile cannot be verified, the certificate may have expired or been revoked.
 
 ### Untrusted Enterprise Developer
 
@@ -278,53 +290,49 @@ Settings → General → VPN & Device Management
 
 Select the enterprise developer profile and choose the available trust option.
 
-The exact wording may be different depending on the installed iOS version.
-
-### Certificate Password Incorrect
-
-Make sure:
-
-* The password was copied correctly.
-* There are no extra spaces.
-* Capital letters are entered correctly.
-* The password belongs to the selected `.p12` file.
-* The certificate package was downloaded completely.
+The exact menu wording may vary depending on the installed iOS version.
 
 ### Certificate and Provisioning Profile Do Not Match
 
-This error can happen when the `.p12` and `.mobileprovision` files come from different certificate packages.
+Delete the imported files and download a complete certificate package again.
 
-Delete both files and import a matching pair from the same downloaded folder.
+The following files must come from the same package:
+
+```text
+Certificate.p12
+Certificate.mobileprovision
+Password.txt
+```
 
 ---
 
-## ESign Certificate Status
+## Certificate Status
 
-Certificate status may change without notice.
+Certificate availability and status can change without notice.
 
-| Status  | Meaning                                                        |
-| ------- | -------------------------------------------------------------- |
-| Working | The certificate may currently sign and install compatible apps |
-| Signed  | The certificate is currently listed as available               |
-| Revoked | Applications signed with the certificate may be rejected       |
-| Expired | The certificate or provisioning profile has expired            |
-| Unknown | The current certificate status has not been confirmed          |
+| Status    | Description                                                             |
+| --------- | ----------------------------------------------------------------------- |
+| Working   | The certificate may currently sign and install compatible applications  |
+| Available | The certificate is currently listed for download                        |
+| Revoked   | Applications signed with the certificate may stop opening or installing |
+| Expired   | The certificate or provisioning profile has passed its expiration date  |
+| Unknown   | The current certificate status has not been confirmed                   |
 
-A certificate listed as working is not guaranteed to remain active permanently.
+A certificate marked as working is not guaranteed to remain active permanently.
 
 Always test the certificate on your own device.
 
 ---
 
-## Supported Signing Applications
+## Supported Applications
 
-Depending on the certificate package, the downloaded files may be compatible with:
+Depending on the certificate package, the files may be compatible with:
 
 * ESign
 * KSign
 * Scarlet
 * Feather
-* Other compatible IPA signing applications
+* Other IPA signing applications
 
 Compatibility depends on:
 
@@ -336,15 +344,13 @@ Compatibility depends on:
 * Signing application
 * Device compatibility
 
-A certificate that imports successfully may not support every IPA file.
-
 ---
 
 ## Frequently Asked Questions
 
 ### Where can I download an updated ESign iOS certificate?
 
-Visit [AppleJR.net](https://applejr.net/) and select the **Certs** section to view the currently available ESign certificate downloads.
+Visit [AppleJR.net](https://applejr.net/) and select the **Certs** section.
 
 ### Is the ESign certificate free?
 
@@ -354,138 +360,131 @@ AppleJR may list publicly available certificate packages. Availability and acces
 
 No. Enterprise certificates may expire or be revoked at any time.
 
-### Can I use ESign without a computer?
+### Can I download a certificate directly on an iPhone?
 
-After ESign is installed, importing certificates and signing compatible IPA files can generally be completed directly on an iPhone or iPad.
+Yes. You can download the certificate ZIP file using Safari and extract it using the iOS Files app.
 
-### Can I download an ESign certificate on an iPhone?
+### Can ESign work without a computer?
 
-Yes. Certificate ZIP files can be downloaded using Safari and extracted using the iOS Files app.
+After ESign is installed, importing certificates and signing compatible IPA files can generally be performed directly on an iPhone or iPad.
 
-### Can I use an ESign certificate on an iPad?
+### Can I use the certificate on an iPad?
 
 Yes. Compatible certificate packages may be imported into ESign on supported iPad devices.
 
-### Why is my ESign certificate revoked?
+### Why is the certificate password incorrect?
 
-Enterprise certificates may be revoked by their issuer or by Apple. Applications signed with a revoked certificate may stop opening or installing.
-
-### Why does ESign say the certificate password is incorrect?
-
-The password may have been copied incorrectly, contain extra spaces, or belong to another `.p12` file.
-
-### Where can I find the certificate password?
-
-Check the extracted certificate folder for files such as:
-
-```text
-Password.txt
-cert.txt
-README.txt
-```
+The password may contain extra spaces, use different uppercase or lowercase characters, or belong to another `.p12` file.
 
 ### Can one certificate sign every IPA file?
 
-No. Some applications require special entitlements or capabilities that are not supported by every certificate or provisioning profile.
+No. Some applications require entitlements or capabilities that are not available in every certificate or provisioning profile.
 
-### Can I use the same certificate with KSign or Scarlet?
+### Can the same certificate work with KSign or Scarlet?
 
-Some `.p12` and `.mobileprovision` packages may work with multiple signing applications. Compatibility is not guaranteed.
+Some certificate packages may work with several compatible signing applications, but compatibility is not guaranteed.
 
 ### Why does a signed app immediately close?
 
 Possible causes include:
 
-* Unsupported entitlements
-* An incompatible IPA
-* Incorrect signing configuration
 * Certificate revocation
-* Provisioning profile restrictions
+* Unsupported entitlements
+* Incompatible IPA files
+* Incorrect signing configuration
+* Provisioning restrictions
 * Missing application frameworks
 
-### How often are ESign certificates updated?
+### How often are certificates updated?
 
-Certificate availability can change at any time. Visit AppleJR directly to check the latest listed certificate packages.
-
-### Does AppleJR host the certificate files?
-
-Certificate availability and download locations may vary. Use the AppleJR Certificates section to access the currently listed resources.
+Certificate availability can change at any time. Check AppleJR directly for the latest listed certificate packages.
 
 ---
 
-## AppleJR iOS Resources
+## AppleJR Resources
 
 AppleJR provides iOS sideloading resources and tutorials, including:
 
-* ESign iOS certificate downloads
-* ESign installation resources
-* ESign certificate tutorials
+* ESign certificate downloads
+* ESign installation guides
 * KSign resources
 * Scarlet resources
 * IPA signing tools
-* IPA installation guides
+* IPA installation tutorials
 * Certificate status information
-* iPhone sideloading tutorials
-* iPad sideloading tutorials
-* Direct-install resources
+* iPhone and iPad sideloading guides
 
 <div align="center">
-
-## Visit AppleJR
 
 <a href="https://applejr.net/">
   <img
     src="https://applejr.net/assets/img-local/o8HGFP6m-54cada85.webp"
-    alt="Visit AppleJR for ESign iOS Certificates"
-    width="700"
+    alt="AppleJR iOS Sideloading Resources"
+    width="420"
   >
 </a>
 
 <br><br>
 
-[![AppleJR iOS Resources](https://img.shields.io/badge/APPLEJR.NET-IOS%20SIDELOADING%20RESOURCES-FF3131?style=for-the-badge\&logo=apple\&logoColor=white)](https://applejr.net/)
+[![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
 
-### https://applejr.net/
+### [Visit AppleJR.net](https://applejr.net/)
 
 </div>
 
 ---
 
-## Search Keywords
+## Repository Information
 
-This repository provides information related to:
+**Recommended repository name**
 
 ```text
-ESign iOS certificate download
-ESign certificate download updated
-ESign certificate 2026
-ESign iOS certificate
-ESign p12 certificate download
-ESign mobileprovision download
-ESign certificate password
-ESign certificate for iPhone
-ESign certificate for iPad
-ESign IPA signing certificate
-Updated ESign certificate
-Free ESign certificate
-AppleJR ESign certificate
-iOS certificate download
-IPA signing certificate
+esign-ios-certificate-download
+```
+
+**Repository description**
+
+```text
+Download updated ESign iOS certificates for iPhone and iPad. Learn how to import certificates, sign IPA files, and fix common ESign errors.
+```
+
+**Website**
+
+```text
+https://applejr.net/
+```
+
+**Recommended topics**
+
+```text
+esign
+esign-ios
+esign-certificate
+esign-certificate-download
+ios-certificate
+ipa-signer
+ipa-signing
+ios-sideloading
+iphone
+ipad
+applejr
 ```
 
 ---
 
-## Important Notice
+## Disclaimer
 
 This repository is provided for educational and informational purposes.
 
-Certificate availability, validity, expiration, and revocation status may change without notice.
+This repository does not directly host certificate files. Downloads are provided through AppleJR or their respective external sources.
 
-Users are responsible for ensuring that they have permission to install, sign, and use any application.
+Certificate validity, expiration, availability, and revocation status may change without notice.
+
+Users are responsible for ensuring that they have permission to sign, install, and use any application.
 
 Only install IPA files from developers and sources that you trust.
 
-Do not use certificates or signing tools to distribute unauthorized, modified, pirated, or harmful applications.
+Do not use signing certificates or sideloading tools to distribute unauthorized, pirated, modified, or harmful applications.
 
 AppleJR is not affiliated with Apple Inc.
 
@@ -497,13 +496,11 @@ ESign, KSign, Scarlet, Feather, and other application names belong to their resp
 
 <div align="center">
 
-# ESign iOS Certificate Download Updated
+## ESign iOS Certificate Download
 
-[![Download Updated ESign Certificate](https://img.shields.io/badge/DOWNLOAD%20UPDATED%20ESIGN%20CERTIFICATE-APPLEJR.NET-FF3131?style=for-the-badge\&logo=apple\&logoColor=white)](https://applejr.net/)
-
-<br>
-
-[![Watch ESign Tutorial](https://img.shields.io/badge/WATCH%20ESIGN%20TUTORIAL-YOUTUBE-FF0000?style=for-the-badge\&logo=youtube\&logoColor=white)](https://www.youtube.com/watch?v=c_ehi422vWA&t=36s)
+[![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge\&logo=apple)](https://applejr.net/)
+[![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
+[![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
 
 <br><br>
 
@@ -511,10 +508,10 @@ ESign, KSign, Scarlet, Feather, and other application names belong to their resp
 
 **Certificate source: [AppleJR.net](https://applejr.net/)**
 
-**Tutorial: [Watch on YouTube](https://www.youtube.com/watch?v=c_ehi422vWA&t=36s)**
+**Video tutorial: [Watch on YouTube](https://www.youtube.com/watch?v=c_ehi422vWA&t=36s)**
 
 <br>
 
-⭐ **Star this repository to easily return to the AppleJR certificate page.**
+⭐ Star this repository to save the latest AppleJR certificate page.
 
 </div>
