@@ -66,11 +66,6 @@ Watch the step-by-step video tutorial below.
 
 <br><br>
 
-[![Watch on YouTube](https://img.shields.io/badge/WATCH%20TUTORIAL-YOUTUBE-FF0000?style=for-the-badge\&logo=youtube\&logoColor=white)](https://www.youtube.com/watch?v=c_ehi422vWA&t=36s)
-
-</div>
-
-> GitHub does not support embedded YouTube players inside README files. The video thumbnail above opens the tutorial on YouTube.
 
 ---
 
