@@ -4,27 +4,19 @@
 
 ### Updated ESign Certificate for iPhone and iPad
 
-Download updated ESign iOS certificates, `.p12` files, provisioning profiles, and certificate passwords from AppleJR.
+Download the latest available ESign iOS certificate, provisioning profile, and certificate password from AppleJR.
+
+[![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge&logo=apple)](https://applejr.net/)
+[![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
+[![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
+
+**ESign iOS Certificate Download Updated 2026**
 
 <br>
 
 <a href="https://applejr.net/">
-  <img
-    src="https://applejr.net/assets/img-local/o8HGFP6m-54cada85.webp"
-    alt="ESign iOS Certificate Download from AppleJR"
-    width="100%"
-  >
+  <img src="https://applejr.net/assets/img-local/o8HGFP6m-54cada85.webp" alt="AppleJR ESign iOS Certificate Download" width="100%">
 </a>
-
-<br><br>
-
-[![Download ESign Certificate](https://img.shields.io/badge/DOWNLOAD-ESIGN%20CERTIFICATE-1677FF?style=for-the-badge\&logo=apple\&logoColor=white)](https://applejr.net/)
-[![Visit AppleJR](https://img.shields.io/badge/VISIT-APPLEJR.NET-FF3131?style=for-the-badge\&logo=safari\&logoColor=white)](https://applejr.net/)
-[![Updated July 2026](https://img.shields.io/badge/UPDATED-JULY%202026-22C55E?style=for-the-badge)](https://applejr.net/)
-
-<br>
-
-**ESign iOS Certificate Download Updated 2026**
 
 </div>
 
