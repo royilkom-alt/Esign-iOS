@@ -1,0 +1,80 @@
+name: Update README Month
+
+on:
+  schedule:
+    - cron: "10 0 1 * *"
+      timezone: "Asia/Jakarta"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update month badge
+        shell: bash
+        run: |
+          python3 <<'PY'
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          import re
+
+          readme_path = Path("README.md")
+
+          if not readme_path.exists():
+              raise FileNotFoundError("README.md was not found.")
+
+          current_date = datetime.now(ZoneInfo("Asia/Jakarta"))
+          month = current_date.strftime("%B")
+          year = current_date.strftime("%Y")
+
+          new_badge = (
+              "<!-- UPDATED_BADGE_START -->\n"
+              f"[![Updated](https://img.shields.io/badge/"
+              f"Updated-{month}%20{year}-brightgreen"
+              f"?style=for-the-badge)](https://applejr.net/)\n"
+              "<!-- UPDATED_BADGE_END -->"
+          )
+
+          content = readme_path.read_text(encoding="utf-8")
+
+          pattern = re.compile(
+              r"<!-- UPDATED_BADGE_START -->.*?"
+              r"<!-- UPDATED_BADGE_END -->",
+              re.DOTALL,
+          )
+
+          if not pattern.search(content):
+              raise RuntimeError(
+                  "Updated badge markers were not found in README.md."
+              )
+
+          updated_content = pattern.sub(new_badge, content)
+
+          readme_path.write_text(updated_content, encoding="utf-8")
+
+          print(f"Badge updated to {month} {year}.")
+          PY
+
+      - name: Commit updated README
+        shell: bash
+        run: |
+          if git diff --quiet README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+          git commit -m "docs: update badge month"
+          git push
