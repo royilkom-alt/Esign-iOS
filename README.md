@@ -20,11 +20,12 @@ Download the latest available ESign certificate files, provisioning profiles, an
 
 [![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge\&logo=apple)](https://applejr.net/)
 [![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
+<!-- UPDATED_BADGE_START -->
 [![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
-
+<!-- UPDATED_BADGE_END -->
 <br>
 
-**ESign iOS Certificate Download — Updated July 2026**
+**ESign iOS Certificate Download — Updated 2026**
 
 </div>
 
@@ -500,11 +501,12 @@ ESign, KSign, Scarlet, Feather, and other application names belong to their resp
 
 [![ESign Certificate Download](https://img.shields.io/badge/Download-ESign%20Certificate-1677ff?style=for-the-badge\&logo=apple)](https://applejr.net/)
 [![AppleJR](https://img.shields.io/badge/Visit-AppleJR.net-ff3131?style=for-the-badge)](https://applejr.net/)
+<!-- UPDATED_BADGE_START -->
 [![Updated](https://img.shields.io/badge/Updated-July%202026-brightgreen?style=for-the-badge)](https://applejr.net/)
-
+<!-- UPDATED_BADGE_END -->
 <br><br>
 
-**Updated: July 2026**
+**Updated: 2026**
 
 **Certificate source: [AppleJR.net](https://applejr.net/)**
 
